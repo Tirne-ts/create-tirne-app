@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-import { prompt } from "prompts";
 import { copyFileSync, mkdirSync, existsSync, readdirSync, statSync } from "fs";
 import { join } from "path";
 import { fileURLToPath } from "url";
-
+import promptsPkg from "prompts";
+const { prompt } = promptsPkg;
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
 const templatesDir = join(__dirname, "..", "templates");
 
