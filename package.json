@@ -1,6 +1,6 @@
 {
   "name": "create-tirne-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scaffold a new Tirne app in seconds.",
   "bin": {
     "create-tirne-app": "./bin/index.js"
@@ -11,4 +11,3 @@
   },
   "license": "MIT"
 }
-
