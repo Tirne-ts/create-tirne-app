@@ -52,9 +52,14 @@ if (!existsSync(source)) {
 
 copyRecursive(source, dest);
 
-console.log(`\n✅ Tirne app created in '${targetDir}'`);
-console.log(`\nNext steps:\n`);
+console.log(`\n✅ Tirne app created in '${targetDir}'\n`);
+
+console.log(`✨ Next steps:`);
+
 console.log(`  cd ${targetDir}`);
-console.log(`  bun install or npm install`);
-console.log(`  wrangler dev or npm run dev or deno task dev or netlify dev`);
-console.log(`Happy coding! 🎉\n`);
+console.log(`  bun install       # or npm install`);
+console.log(`  bun run dev       # or wrangler dev / deno task dev`);
+
+console.log(`\n🚀 Tirne is fetch-native, zero-dependency, and Edge-ready.`);
+console.log(`⭐️ Star it if you believe in small, powerful tools.`);
+console.log(`   → https://github.com/Tirne-ts/Tirne\n`);
