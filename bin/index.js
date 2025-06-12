@@ -55,5 +55,6 @@ copyRecursive(source, dest);
 console.log(`\n✅ Tirne app created in '${targetDir}'`);
 console.log(`\nNext steps:\n`);
 console.log(`  cd ${targetDir}`);
-console.log(`  bun install`);
-console.log(`  bun run index.ts`);
+console.log(`  bun install or npm install`);
+console.log(`  wrangler dev or npm run dev or deno task dev or netlify dev`);
+console.log(`Happy coding! 🎉\n`);
