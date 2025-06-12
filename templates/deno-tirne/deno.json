@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["deno.ns", "dom"],
+    "strict": true
+  },
+  "tasks": {
+    "dev": " deno run --watch --allow-net index.ts"
+  }
+}
