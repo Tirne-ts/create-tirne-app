@@ -1,12 +1,14 @@
 {
   "name": "create-tirne-app",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.1.0",
+  "description": "Scaffold a new Tirne app in seconds.",
+  "bin": {
+    "create-tirne-app": "./bin/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "type": "module",
+  "dependencies": {
+    "prompts": "^2.4.2"
+  },
+  "license": "MIT"
 }
+
