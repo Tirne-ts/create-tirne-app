@@ -13,7 +13,7 @@
 ```bash
 npx create-tirne-app
 ```
-<p align="center"> <img src="./assets/terminal-setup.png" width="500" alt="Tirne setup terminal screenshot"> </p> ```
+<p align="center"> <img src="./assets/terminal-setup.png" width="500" alt="Tirne setup terminal screenshot"> </p> 
 Choose your environment:
 
 * **Bun**
