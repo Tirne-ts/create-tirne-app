@@ -3,6 +3,9 @@
 > Scaffold blazing-fast, zero-boilerplate APIs across Bun, Deno, Workers, and Node — in seconds.
 > Tirne is how Go would write backend in TypeScript.
 
+👉 **Star Tirne on GitHub** and support a framework built on clarity and control:
+[https://github.com/Tirne-ts/Tirne](https://github.com/Tirne-ts/Tirne)
+
 ---
 
 ## 🚀 Quickstart
@@ -10,7 +13,7 @@
 ```bash
 npx create-tirne-app
 ```
-<p align="center"> <img src="./assets/terminal-setup.png" width="500" alt="Tirne setup terminal screenshot"> </p> `
+<p align="center"> <img src="./assets/terminal-setup.png" width="500" alt="Tirne setup terminal screenshot"> </p> ```
 Choose your environment:
 
 * **Bun**
@@ -19,6 +22,9 @@ Choose your environment:
 * **Netlify Edge Functions**
 
 This command sets up a ready-to-run Tirne project in seconds.
+
+📣 **Love minimal tools that get out of your way?**
+Star the main Tirne repo: [https://github.com/Tirne-ts/Tirne](https://github.com/Tirne-ts/Tirne)
 
 ---
 
@@ -65,6 +71,9 @@ Tirne isn’t another framework. It’s a **code-first philosophy**:
 
 If you're tired of macros, decorators, and overengineered abstractions — welcome home.
 
+💡 **Help us build a new standard.** Star the repo and spread the word:
+[https://github.com/Tirne-ts/Tirne](https://github.com/Tirne-ts/Tirne)
+
 ---
 
 ## 🧱 Template Variants
@@ -96,8 +105,7 @@ create-tirne-app
 
 Tirne is fast, typed, fetch-native, and ready to scale with you. It’s not Express 3.0. It’s a new way to think about APIs.
 
-👉 Star Tirne on GitHub and help shape a future built on control, clarity, and code.
-
+👉 **Star Tirne on GitHub** and help shape a future built on control, clarity, and code:
 [https://github.com/Tirne-ts/Tirne](https://github.com/Tirne-ts/Tirne)
 
 ---
