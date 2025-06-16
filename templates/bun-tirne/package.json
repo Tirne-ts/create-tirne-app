@@ -13,6 +13,6 @@
   },
   "type": "module",
   "dependencies": {
-    "tirne": "^0.1.11"
+    "tirne": "^0.1.12"
   }
 }
