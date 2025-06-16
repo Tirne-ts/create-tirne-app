@@ -1,8 +1,17 @@
-import { createRouter, json } from "tirne";
 
-const routes = [
-  { method: "GET", path: "/", handler: () => json({ msg: "Heldlddo Tirne + Bun!" }) },
+
+import { Server, } from "tirne";
+import type { Route } from "tirne";
+const routes: Route[] = [
+{
+method: "GET",
+path: "/",
+handler: (req) => new Response("Hello Tirne!"),
+},
 ];
 
-Bun.serve({ fetch: createRouter(routes) });
-console.log("Server running on http://localhost:3000");
+const server = new Server(routes);
+
+export default {
+fetch: (req: Request) => server.fetch(req),
+};

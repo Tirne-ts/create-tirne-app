@@ -10,8 +10,6 @@ const templatesDir = join(__dirname, "..", "templates");
 
 const choices = [
   { title: "Bun", value: "bun-tirne" },
-  { title: "Deno", value: "deno-tirne" },
-  { title: "Netlify Edge Functions", value: "netlify-tirne" },
   { title: "Cloudflare Workers", value: "workers-tirne" }
 ];
 
@@ -58,7 +56,7 @@ console.log(`✨ Next steps:`);
 
 console.log(`  cd ${targetDir}`);
 console.log(`  bun install       # or npm install`);
-console.log(`  bun run dev       # or wrangler dev / deno task dev`);
+console.log(`  npm run dev   # or wrangler dev `);
 
 console.log(`\n🚀 Tirne is fetch-native, zero-dependency, and Edge-ready.`);
 console.log(`⭐️ Star it if you believe in small, powerful tools.`);

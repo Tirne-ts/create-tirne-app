@@ -1,6 +1,0 @@
-[build]
-functions = "netlify/edge-functions"
-
-[[edge_functions]]
-path = "/*"
-function = "handler"

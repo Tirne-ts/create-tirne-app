@@ -1,19 +1,18 @@
 {
   "name": "bun",
   "module": "index.ts",
-  "type": "module",
-  "scripts": {
-    "dev": "bun --watch run index.ts"
-  },
-
-  "private": true,
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch run index.ts"
+  },
+  "type": "module",
   "dependencies": {
-    "tirne": "^0.1.4"
+    "tirne": "^0.1.11"
   }
 }
