@@ -2,7 +2,8 @@
   "name": "bun",
   "module": "index.ts",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "autocannon": "^8.0.0"
   },
   "peerDependencies": {
     "typescript": "^5"
